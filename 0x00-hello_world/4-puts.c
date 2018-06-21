@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /*
-* main- starting point for programming
+* main - starting point for programming
 * return: value
 */
 int main(void);
