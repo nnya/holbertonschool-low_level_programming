@@ -4,7 +4,7 @@
 *main - program that prints size
 *Return: 0
 */
-int main(0)
+int main(void)
 {
 printf("Size of a char: %d byte(s)", sizeof(char));
 printf("Size of an int: %d byte(s)", sizeof(int));
