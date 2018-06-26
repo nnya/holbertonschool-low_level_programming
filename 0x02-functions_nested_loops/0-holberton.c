@@ -1,16 +1,10 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "holberton.h"
 
-/**
- *_putchar - writes the character c to stdout
- *@c: The character to print
- *
- *Return: 0
- *On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
+int main(void)
 {
-  return (write(1, &Holberton, 1);
-
-return 0;
-}
+  char naming[] = "Holberton";
+  int h;
+  for(h=0; h < 10; h++) 
+    {
+      _putchar(naming[h]);
+    }
