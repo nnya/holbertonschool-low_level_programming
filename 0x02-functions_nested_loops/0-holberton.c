@@ -1,18 +1,24 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- * Description: creating a header file
- * Return: Always 0.
- */
-int main(void)
-{
-char naming[] = "Holberton";
-int h;
+* main - check the code for Holberton School students.
+* Description: creating a header file
+* Return: Always 0.
+*/
 
-for (h = 0; h < 10; h++)
+int main(void)
+
 {
-_putchar(naming[h]);
-}
+
+_putchar(72);
+_putchar(111);
+_putchar(108);
+_putchar(98);
+_putchar(101);
+_putchar(114);
+_putchar(116);
+_putchar(111);
+_putchar(110);
 _putchar(10);
+
 return (0);
 }
