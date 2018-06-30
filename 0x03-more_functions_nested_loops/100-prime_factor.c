@@ -11,9 +11,9 @@ int main(void)
 	long i;
 	long n;
 
-	n = 612852475143;
+	n = 1231952;
 
-	for (i = 2; i <= n; i++)
+	for (i = 2; i < n; i++)
 	{
 	while (n % i == 0)
 	{
