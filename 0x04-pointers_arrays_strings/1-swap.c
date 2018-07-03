@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * reset_to_98 - update the value
+ * swap_int - update the value
  * @a: pointer
  * @b: pointer
  * Description: changing the value of a pointer
