@@ -2,8 +2,8 @@
 
 /**
  * _strlen - return the length of a string
- *
- * @s: the string
+ * @s: string
+ * @count: counting character in a  string
  * Description: calculating the string length
  * section header: prototype in holberton
  * Return: might be 0
@@ -12,6 +12,10 @@
 int _strlen(char *s)
 
 {
-	strlen(char *s);
-	return (0);
+	int count = 0;
+
+	while (s[count] != '\0')
+		++count;
+
+	return (count);
 }
