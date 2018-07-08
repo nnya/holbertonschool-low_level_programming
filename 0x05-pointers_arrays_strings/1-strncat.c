@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * *_strcat - update the value
+ * *_strncat - function that concatenates two strings
+ * @n:number of bytes
  * @dest: length of destination
  * @src: length of source
  * Description: changing the value of a pointer
