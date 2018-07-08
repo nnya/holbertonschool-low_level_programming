@@ -16,9 +16,10 @@ char *cap_string(char *s)
 		{
 		case 10: case ' ': case 44: case 59: case 46: case 33:
 		case 63: case 34: case 40: case 41: case 123: case 125: case 9:
-			break;
-		}
+		i++;
 		if ((s[i] >= 97) && (s[i] <= 122))
 			s[i] = (s[i] - 32);
+		break;
+		}
 	return (s);
 }
