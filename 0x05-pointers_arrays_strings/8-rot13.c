@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * *leet - update the value
+ * *rot13 - encode a string using rot13
  * @s: string
  * Description: reverse the content of an array of integer
  * section header: prototype in holberton
