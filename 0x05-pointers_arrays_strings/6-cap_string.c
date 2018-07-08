@@ -12,14 +12,17 @@ char *cap_string(char *s)
 	int i;
 
 	for (i = 0; s[i] != '\0'; i++)
-		switch (s[i])
+	{
+		while (s[i] == 10 || s[i] == 32 || s[i] == 44 ||
+		       s[i] == 59 || s[i] == 46 || s[i] == 33 ||
+		       s[i] == 63 || s[i] == 34 || s[i] == 40 ||
+		       s[i] == 41 || s[i] == 123 || s[i] == 125 || s[i] == 9)
 		{
-		case 10: case ' ': case 44: case 59: case 46: case 33:
-		case 63: case 34: case 40: case 41: case 123: case 125: case 9:
+
 		i++;
-		if ((s[i] >= 97) && (s[i] <= 122))
+		if (s[i] >= 97 && s[i] <= 122)
 			s[i] = (s[i] - 32);
-		break;
 		}
+	}
 	return (s);
 }
