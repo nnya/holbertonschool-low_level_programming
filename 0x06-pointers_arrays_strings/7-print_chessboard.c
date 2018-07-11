@@ -2,9 +2,8 @@
 
 
 /**
- * *_strchr - fill a memory with a constant byte
- * @s: string
- * @c: reference letter
+ * print_chessboard - fill a memory with a constant byte
+ * @a: string
  * Description: fill the memory with a constant byte
  * section header: prototype in holberton
  * Return: might be 0
