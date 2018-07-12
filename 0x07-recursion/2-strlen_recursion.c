@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * int _strlen_recursion - prints a string
+ * _strlen_recursion - prints a string
  * @s: string
  * Description: fill the memory with a constant byte
  * section header: prototype in holberton
