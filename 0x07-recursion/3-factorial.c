@@ -2,7 +2,7 @@
 
 /**
  * factorial - return the factorial of a function
- * @s: factor
+ * @n: factor
  * Description: fill the memory with a constant byte
  * section header: prototype in holberton
  * Return: might be 0
