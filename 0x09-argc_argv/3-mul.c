@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program that prints it name
@@ -12,11 +13,18 @@
 int main(int argc, char *argv[])
 
 {
-	int i;
 
-	for (i = 0; i < argc; i++)
+	if (argc != 3)
 	{
-		printf("%s\n", argv[i]);
+		printf("Error\n");
+		return (1);
 	}
+	if (argc == 3)
+	{
+		int i, j;
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+		printf("%d\n",  i * j);
+  	}
 	return (0);
 }
