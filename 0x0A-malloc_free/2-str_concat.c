@@ -15,6 +15,10 @@ char *str_concat(char *s1, char *s2)
 	char *array;
 	int len1, len2, i, j;
 
+	if (s1 == 0)
+		s1 = "";
+	if (s2 == 0)
+		s2 = "";
 	len1 = 0;
 	len2 = 0;
 	i = 0;
