@@ -26,6 +26,11 @@ char *_strdup(char *str)
 	len = i;
 
 	array = malloc(sizeof(char) * (len + 1));
+	if (array == 0)
+	{
+	free(array);
+	return (0);
+	}
 		i = 0;
 			while (str[i] != '\0')
 			{
