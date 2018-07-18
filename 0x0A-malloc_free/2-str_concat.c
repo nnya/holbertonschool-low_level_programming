@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (j = 0; s2[j] != '\0'; j++)
 		len2 = j;
-	array = malloc(len1 + len2 + 1);
+	array = malloc(sizeof(char) * len1 + sizeof(char) * len2 + 1);
 	if (array == 0)
 	{
 		free(array);
