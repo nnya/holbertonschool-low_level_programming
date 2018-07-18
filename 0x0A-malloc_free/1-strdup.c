@@ -9,6 +9,7 @@
  * section header: prototype in holberton
  * Return: might be 0
  */
+
 char *_strdup(char *str)
 {
 	char *array;
@@ -24,7 +25,7 @@ char *_strdup(char *str)
 		i++;
 	len = i;
 
-	array = malloc(sizeof(char) * len + 1);
+	array = malloc(sizeof(char) * (len + 1));
 		i = 0;
 			while (str[i] != '\0')
 			{
