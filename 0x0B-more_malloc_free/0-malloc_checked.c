@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 /**
- * **alloc_grid - function
- * @ptr: factor
+ * *malloc_checked - function
  * @b: element
  * Description: function that allocates memory using malloc
  * section header: prototype in holberton
