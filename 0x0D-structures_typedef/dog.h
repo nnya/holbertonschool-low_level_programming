@@ -1,5 +1,5 @@
-#ifndef _dog_
-#define _dog_
+#ifndef _DOG_
+#define _DOG_
 
 /**
  * struct dog - Short description
@@ -9,10 +9,12 @@
  *
  * Description: Longer description
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	char *owner;
 	float age;
-};
+}dog_t ;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
 #endif
