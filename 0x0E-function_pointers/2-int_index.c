@@ -5,7 +5,7 @@
  * int_index - Short description
  * @array: element
  * @size: element
- * @w: element
+ * @cmp: element
  *
  * Description
  * Return: nothing
