@@ -3,10 +3,8 @@
 #include "variadic_functions.h"
 
 /**
- * array_iterator - Short description
- * @array: element
- * @size: element
- * @action: element
+ * sum_them_all - Short description
+ * @n: element
  *
  * Description
  * Return: nothing
