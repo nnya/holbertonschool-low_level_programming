@@ -18,29 +18,33 @@ void print_all(const char * const format, ...)
 	va_start(valist, format);
 	while (format[i] != '\0')
 	{
-		flag = 1;
+		flag = 0;
 		switch (format[i])
 		{
 		case 'c':
 			printf("%c", va_arg(valist, int));
+			flag = 1;
 			break;
 		case 'i':
 			printf("%d", va_arg(valist, int));
+			flag = 1;
 			break;
 		case 'f':
 			printf("%f", va_arg(valist, double));
+			flag = 1;
 			break;
 		case 's':
 			formated = va_arg(valist, char *);
 				if (formated == NULL)
 				{
-					printf("nil");
+					printf("(nil)");
+					flag = 1;
 					break;
 				}
 			printf("%s", formated);
+			flag = 1;
 			break;
 		default:
-			flag = 0;
 			break;
 		}
 		if (flag == 1 &&  format[i + 1] != 0)
